@@ -101,7 +101,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过授权访问限制",
+      SubTitle: "联系shannon获取api",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
