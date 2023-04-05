@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页输入授权码，联系shannon。",
+    Unauthorized: "现在是未授权状态，请在设置页输入授权码，联系shannon获取授权。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -75,7 +75,6 @@ const cn = {
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
     Theme: "主题",
