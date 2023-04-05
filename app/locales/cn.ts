@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页输入授权码，联系shannon获取授权。",
+    Unauthorized: "现在是未授权状态，请在设置页输入授权码，联系shannon获取授权。微信15611091051",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -70,11 +70,11 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: 1) => `当前版本：${1}`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      FoundUpdate: (x: 1) => `发现新版本：${1}`,
       GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
@@ -101,7 +101,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "联系shannon获取api",
+      SubTitle: "填写自己的API免费使用！小王祝你愉快",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
